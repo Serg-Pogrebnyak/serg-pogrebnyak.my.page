@@ -1,0 +1,208 @@
+
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background: black;
+}
+
+table
+{
+	margin: 0px auto 0px;
+	background-color: black; 
+	text-align: center;
+}
+p
+{
+	padding: 3px;
+	 color:#ffba16;
+}
+.td1
+{
+	width: 8%;
+}
+.img_head
+{
+
+	margin:0;
+	padding: 0;
+	border: 0;
+
+	width:100%;
+	height: 30%;
+	
+}
+.img_foto
+{
+	width: 5%;
+	height: 7,5%;
+	position: fixed;
+	
+}
+.img_study
+{
+	margin-left: 95%;
+	position: fixed;
+	width: 5%;
+	height: 7,5%;
+}
+.txt
+{
+font-family: gabriola; 
+font-size: 150%;
+text-align: center;
+color:  #ffba16;
+/*font-weight: bold;*/
+}
+.txt.txt-1
+{
+background-color:#163678; 	
+}
+.txt.txt-2
+{	
+background-color:#123b0f; 	
+}
+.kino
+{
+	font-family: Impact;
+	text-align: center;
+	font-size: 150%;
+	color: #ffba16;
+
+    
+}
+.block_kino
+{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 25%;
+	
+
+}
+
+.img_pop_corn
+{
+	 
+	width:10%;
+	height: 10%;
+	
+}
+
+.img_pop_corn.l
+{
+float: left;	
+}
+.img_pop_corn.r
+{
+float: right;	
+}
+.img_left
+{
+	float: left;
+
+	padding-right: 10px;
+	border-radius: 7px;
+
+
+
+}
+.img_right
+{	
+	
+	float: right;
+
+	border-radius: 7px;
+
+}
+
+.block
+{
+	display: inline-block;
+	height: 97.5%;
+	width: 97.5%;
+	margin: 0% 0% 2% 10px ;
+	background-color: black;
+	border:  3px solid black;
+	border-radius:10px;
+	box-shadow: 19px 20px 25px -2px black; 
+}
+.see_png
+{
+	width: 10%;
+	height: 10%;
+}
+.block-foto
+{
+		
+	display: inline-block;
+	margin-left: 20%;	
+	z-index: 100;
+	
+}
+.foto-my
+{
+	/*overflow: hidden;*/
+
+	width: 25%;
+	height: 25%;
+	display: inline-block;
+	z-index: 100;
+}
+.foto-my img
+{	z-index: 100;
+	width: 100%;
+	height: 100%;
+	-moz-transition:all 1.3s ease-out;
+	-o-transition:all 1.3s ease-out;
+	-webkit-transition:all 1.3s ease-out;
+}
+.foto-my img:hover
+{
+	z-index: 100;
+	-moz-transform:scale(1.3);
+	-o-transform:scale(1.3);
+	-webkit-transform:scale(1.3);	
+	padding-bottom: 50px;
+}
+
+.blockquote {
+	width: 94%;
+margin: 0;
+/*background: #FFF4ED;*/
+padding: 40px;
+color: #3F484D;
+position: relative;
+font-family: 'Lato', sans-serif;
+text-align: center;
+}
+.blockquote:before, blockquote:after {
+font-size: 45px;
+color: #3CA1D9;
+position: absolute;
+height: 2px;
+left: 40px;
+right: 40px;
+line-height: .5;
+background: linear-gradient(to right, #3CA1D9 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #3CA1D9 55%);
+font-family: serif;
+}
+.blockquote:before {
+content: "\201C";
+top: 30px;
+}
+.blockquote:after {
+content: "\201D";
+bottom: 30px;
+}
+.blockquote p {
+font-size: 20px;
+}
+.blockquote footer {
+margin-bottom: 1em;
+}
+.blockquote cite {
+font-style: normal;
+}

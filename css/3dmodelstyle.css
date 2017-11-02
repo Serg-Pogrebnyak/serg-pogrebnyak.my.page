@@ -1,0 +1,59 @@
+*{
+	margin:0;
+}
+body{
+	background:#C3C3C3;
+	
+}
+iframe{
+	vertical-align: center;
+	width: 850px;
+	height:430px;
+	/*margin: 5px 0px 0px 225px;*/
+	object-fit: all;
+	
+}
+
+
+img
+{
+	width: 98%;
+	height: 200px;
+
+}
+
+.t1{
+
+width: 100%;
+}
+
+.img_foto
+{
+	width: 25%;
+	height: 82%;
+	
+}
+.img_home
+{
+	
+
+	width: 25%;
+	height: 82%;
+	
+}
+.td1{
+	vertical-align: top;
+	width: 30%;
+}
+.td2
+{
+	text-align: center;
+}
+.right
+{
+	text-align: right;	
+}
+.active
+{
+	border: 2px solid black;
+}
